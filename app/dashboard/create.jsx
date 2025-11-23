@@ -90,17 +90,20 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor: '#f5f5f5',
   },
   heading: {
     fontWeight: "bold",
-    fontSize: 18,
+    fontSize: 24,
     textAlign: "center",
+    color: '#333',
   },
   input: {
     padding: 20,
     borderRadius: 6,
     alignSelf: 'stretch',
     marginHorizontal: 40,
+    backgroundColor: '#fff',
   },
   multiline: {
     padding: 20,
@@ -108,5 +111,6 @@ const styles = StyleSheet.create({
     minHeight: 100,
     alignSelf: 'stretch',
     marginHorizontal: 40,
+    backgroundColor: '#fff',
   }
 })
