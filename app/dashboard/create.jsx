@@ -88,25 +88,29 @@ export default Create
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
+    justifyContent: "flex-start",
     alignItems: "center",
+    paddingTop: 50,
   },
   heading: {
     fontWeight: "bold",
-    fontSize: 18,
+    fontSize: 20,
     textAlign: "center",
+    marginBottom: 20,
   },
   input: {
-    padding: 20,
-    borderRadius: 6,
+    padding: 15,
+    borderRadius: 8,
     alignSelf: 'stretch',
-    marginHorizontal: 40,
+    marginHorizontal: 30,
+    borderWidth: 1,
   },
   multiline: {
-    padding: 20,
-    borderRadius: 6,
-    minHeight: 100,
+    padding: 15,
+    borderRadius: 8,
+    minHeight: 120,
     alignSelf: 'stretch',
-    marginHorizontal: 40,
+    marginHorizontal: 30,
+    borderWidth: 1,
   }
 })
