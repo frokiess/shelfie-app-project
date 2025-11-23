@@ -45,32 +45,32 @@ const Books = () => {
 export default Books
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    //justifyContent: "center",
-    alignItems: "stretch",
-  },
   heading: {
     fontWeight: "bold",
-    fontSize: 18,
+    fontSize: 17,
     textAlign: "center",
   },
   list: {
-    marginTop: 40,
+    marginTop: 35,
     paddingBottom: 20,
   },
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "stretch",
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
   card:{
-    width: "90%",
+    width: "85%",
     marginHorizontal: "5%",
     marginVertical: 10,
     padding: 10,
     paddingLeft: 14,
     borderLeftColor: Colors.primary,
     borderLeftWidth: 4
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: "bold",
-    marginBottom: 10,
   },
 })
