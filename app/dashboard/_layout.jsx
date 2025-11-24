@@ -10,7 +10,6 @@ const DashboardLayout = () => {
   const theme = Colors[colorScheme] ?? Colors.light
   return (
     <UserOnly>
-      <Tabs></Tabs>
     <Tabs
       screenOptions={{
         headerShown: false, tabBarStyle: {
