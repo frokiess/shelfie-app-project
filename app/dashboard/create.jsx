@@ -90,15 +90,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "flex-start",
     alignItems: "center",
-<<<<<<< HEAD
-    backgroundColor: '#f5f5f5',
-  },
-  heading: {
-    fontWeight: "bold",
-    fontSize: 24,
-    textAlign: "center",
-    color: '#333',
-=======
     paddingTop: 50,
   },
   heading: {
@@ -106,31 +97,20 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: "center",
     marginBottom: 20,
->>>>>>> conflict-branch
   },
   input: {
     padding: 15,
     borderRadius: 8,
     alignSelf: 'stretch',
-<<<<<<< HEAD
-    marginHorizontal: 40,
-    backgroundColor: '#fff',
-=======
     marginHorizontal: 30,
     borderWidth: 1,
->>>>>>> conflict-branch
   },
   multiline: {
     padding: 15,
     borderRadius: 8,
     minHeight: 120,
     alignSelf: 'stretch',
-<<<<<<< HEAD
-    marginHorizontal: 40,
-    backgroundColor: '#fff',
-=======
     marginHorizontal: 30,
     borderWidth: 1,
->>>>>>> conflict-branch
   }
 })
